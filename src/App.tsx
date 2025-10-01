@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { InputForm } from "./components/InputForm";
 import { ProjectionResults } from "./components/ProjectionResults";
 import { AugieMessage } from "./components/AugieMessage";
 import { JLCollinsQuote } from "./components/JLCollinsQuote";
-import { calculateVTSAXProjections, formatCurrency } from "./utils/finance";
+import { calculateVTSAXProjections } from "./utils/finance";
 import { getVTSAXData } from "./utils/vanguardData";
 
 interface AppState {

@@ -73,11 +73,11 @@ export const InputForm: React.FC<InputFormProps> = ({
               type="text"
               value={amount}
               onChange={handleInputChange}
-              onBlur={(e) => {
-                if (amount && !error) {
-                  setAmount(formatInputValue(amount));
-                }
-              }}
+               onBlur={(_e) => {
+                 if (amount && !error) {
+                   setAmount(formatInputValue(amount));
+                 }
+               }}
               placeholder="$0.00"
               className={`amount-input ${error ? "error" : ""}`}
               disabled={isLoading}
