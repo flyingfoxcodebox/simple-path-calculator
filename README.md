@@ -202,6 +202,7 @@ We welcome contributions! Here's how you can help:
 6. **Open a Pull Request**
 
 ### Development Setup
+
 ```bash
 git clone https://github.com/your-username/simple-path-calculator.git
 cd simple-path-calculator
@@ -210,6 +211,7 @@ npm run dev
 ```
 
 ### Ideas for Contributions
+
 - 🐕 Add more Augie photos or animations
 - 📊 Integrate real-time VTSAX data from APIs
 - 🛒 Add more pet product categories
