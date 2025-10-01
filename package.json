@@ -1,0 +1,31 @@
+{
+  "name": "simple-path-calculator",
+  "version": "1.0.0",
+  "description": "A fun investment calculator with Augie's sassy commentary",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "investment",
+    "calculator",
+    "vtsax",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.7",
+    "@types/node": "^24.6.1"
+  }
+}
